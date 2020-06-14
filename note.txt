@@ -1,0 +1,25 @@
+pre-requirement for run CLI and GUI ->
+	install python(version 3 prefarable) , tkinter and following file 
+
+this project fully depedent on Exif tool, which is used to get/update metadata infomation of a file
+
+Exif tool can downloaded from https://exiftool.org/
+
+Place the location of the exif.exe location in the CLI.py
+
+How to run CLI and GUI:-
+	after download zip extract and past where CLI.py file and GUI.py exist
+    Navigate the commandline to where the CLI.py and GUI.py exist
+
+Use the commands 
+
+To run CLI.py
+
+	python CLI.py -r <directory> -o <CSV file>
+	
+  	Ex: python CLI.py -r "D:\ICT Metadata Harvester\files" -o output.csv
+
+TO run GUI.py
+
+ 	python GUI.py
+
